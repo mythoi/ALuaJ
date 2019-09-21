@@ -53,18 +53,19 @@ lua文件中允许插入java类，java方法，java接口...
 AndroLuaJ手机端编程，想你所想，做你想做
 
 AndroLuaJ官方交流群551480248
-<a href="androluaj.mythoi.cn">AndroLuaJ官方论坛</a>
+
+<a href="http://androluaj.mythoi.cn">AndroLuaJ官方论坛</a>
 
 ### 构建此项目
-使用我的<a href="http://www.occhao.cc/AndroLuaJ/">AndroLuaJ</a>构建该项目，有开发经验的也可以用pc端的工具进行构建
+使用<a href="http://www.occhao.cc/AndroLuaJ/">AndroLuaJ</a>构建该项目，有开发经验的也可以用pc端的工具进行构建
 * 克隆此项目到手机
 * 手机端安装<a href="http://www.occhao.cc/AndroLuaJ/">AndroLuaJ</a>
 * 在手机上使用<a href="http://www.occhao.cc/AndroLuaJ/">AndroLuaJ</a>进行构建此项目（ALuaJ）
 
 ### AndroLuaJ和ALuaJ的区别
 * <a href="http://www.occhao.cc/AndroLuaJ/">AndroLuaJ官网</a>
-* <a href="https://www.aluaj.tk/">ALuaJ官方</a>
-* 这两个项目都是安卓端的IDE，可以在安卓手机上写代码，然后编译打包apk运行。ALuaj是AndroLuaJ(有着更多功能，同时也可能潜在着更多Bug)衍生出来的一个稳定版本，默认基于AndroLua+4.1.0(nirenr)。AndroLuaJ支持ndk开发，而ALuaJ不支持
+* <a href="https://www.aluaj.tk/">ALuaJ官网</a>
+* 这两个项目都是安卓端的IDE，可以在安卓手机上写代码，然后编译打包apk运行。ALuaj是AndroLuaJ(有着更多功能，同时也可能潜在着更多Bug)衍生出来的一个稳定版本，默认基于AndroLua+4.1.0(nirenr)。AndroLuaJ支持ndk开发，而ALuaJ不支持。目前AndroLuaJ没有开源
 ALuaJ与AndroLuaJ混合工程的不同:
 1.去除lua文件中插入java代码的功能
 2.init.lua新增compiles={}，使用它来依赖第三方支持包
