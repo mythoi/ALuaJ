@@ -1,0 +1,21 @@
+{
+  LinearLayout,
+  layout_width="fill",
+  orientation="vertical",
+  {
+    Toolbar;
+    title="ALuaj教程";
+    layout_width="fill";
+    titleTextColor=0xffffffff;
+    subtitleTextColor=0x55ffffff;
+    id="mtoolBar";
+    background=app_theme.colorPrimary;
+  };
+  {
+    ListView,
+    id="listview",
+    layout_width="fill"
+  },
+}
+
+

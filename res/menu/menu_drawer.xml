@@ -1,0 +1,58 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	
+
+    <item
+        android:id="@+id/moon"
+        android:orderInCategory="80"
+        android:title="切换主题"
+        android:icon="@mipmap/ic_theme"
+        android:showAsAction="always"/>
+        
+	<item
+        android:id="@+id/drawer_new_proj"
+        android:orderInCategory="81"
+        android:title="新建工程"
+        android:showAsAction="never"/>
+
+	<item
+        android:id="@+id/drawer_new_file"
+        android:orderInCategory="81"
+        android:title="新建文件"
+        android:showAsAction="never"/>
+		
+
+    <item
+        android:id="@+id/export_project"
+        android:orderInCategory="81"
+        android:title="导出工程"
+        android:showAsAction="never"/>
+			
+<!--	
+	<item
+        android:id="@+id/refreshJar"
+        android:orderInCategory="81"
+        android:title="刷新依赖"
+        android:showAsAction="never"/>
+-->
+
+    <item
+        android:id="@+id/project_attr"
+        android:orderInCategory="81"
+        android:title="工程属性"
+        android:showAsAction="never"/>
+
+	
+     <item
+        android:id="@+id/curOpen"
+        android:orderInCategory="81"
+        android:title="当前打开"
+        android:showAsAction="never"/>
+
+ 
+	<item
+        android:id="@+id/drawer_show_proj"
+        android:orderInCategory="81"
+        android:title="当前工程"
+        android:showAsAction="never"/>
+	
+</menu>

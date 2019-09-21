@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	title="设置">
+
+
+    <PreferenceCategory android:title="编辑器" >
+		<PreferenceScreen android:title="编辑器相关设置"
+          android:key="editor">
+
+			
+			<EditTextPreference
+				android:defaultValue="#ffffffff"
+				android:dialogTitle="编辑器背景颜色"
+				android:key="LuaEditBgColor"
+				android:summary="默认#ffffffff"
+				android:title="编辑器背景颜色" />
+			
+			<EditTextPreference
+				android:defaultValue="#ff000000"
+				android:dialogTitle="编辑器字体颜色"
+				android:key="LuaEditTextColor"
+				android:summary="默认#ff000000"
+				android:title="编辑器字体颜色" />
+			
+			<SwitchPreference
+				android:defaultValue="true"
+				android:key="codeBlockLine"
+				android:summaryOff="已关闭"
+				android:summaryOn="已开启"
+				android:switchTextOff="close"
+				android:switchTextOn="open"
+				android:title="代码块对齐线"/>
+			
+        </PreferenceScreen>
+		
+		
+		
+    </PreferenceCategory>
+	
+	
+	<PreferenceCategory android:title="构建和运行">
+		<PreferenceScreen android:title="设置构建和运行"
+         android:key="runBuild">
+
+			<PreferenceCategory android:title="Android" >
+			<EditTextPreference
+				android:defaultValue="/storage/emulated/0/.alj/Android/android.jar"
+				android:dialogTitle="环境包路径"
+				android:key="Android"
+				android:summary="设置Android环境"
+				android:title="SDK" />
+			
+				<EditTextPreference
+					android:defaultValue="/storage/emulated/0/.alj/Android/m2repository/"
+					android:dialogTitle="Maven本地仓库路径："
+					android:key="m2repositoryPath"
+					android:summary="设置Maven仓库(m2repository)的目录，以便项目引用依赖库"
+					android:title="Maven本地仓库目录" />
+			
+				
+			</PreferenceCategory>
+
+			<PreferenceCategory android:title="AndroLua+(@nirenr)" >
+			<EditTextPreference
+				android:defaultValue="/storage/emulated/0/.alj/AndroLua/androlua.dex"
+				android:dialogTitle="设置androlua.dex路径"
+				android:key="ALua"
+				android:summary="设置AndroLua+环境"
+				android:title="AndroLua+环境" />
+			
+				<EditTextPreference
+					android:defaultValue="/storage/emulated/0/.alj/AndroLua/lua/"
+					android:dialogTitle="设置全局Lua"
+					android:key="luaLib"
+					android:summary="Lua仓库(存放AndroLua+.apk里的lua依赖,或第三方lua)"
+					android:title="设置全局lua" />
+			
+   	        	<EditTextPreference
+					android:defaultValue="/storage/emulated/0/.alj/AndroLua/lib/"
+					android:dialogTitle="设置全局so"
+					android:key="soLib"
+					android:summary="so仓库(存放AndroLua+.apk里的so依赖,或第三方so)"
+					android:title="设置全局so" />
+
+
+			</PreferenceCategory>
+
+	
+			
+			<PreferenceCategory android:title="签名设置" >				
+				<PreferenceScreen
+					android:key="createKey"
+					android:title="创建签名证书"
+					android:summary="">		
+				</PreferenceScreen>
+				
+				<EditTextPreference
+					android:key="keyPath"
+					android:title="设置签名证书完整路径"
+					android:summary="正式打包时将使用该签名证书进行签名"/>		
+				
+				<SwitchPreference
+					android:key="isKey"
+					android:summaryOff="自定义签名已关闭"
+					android:summaryOn="自定义签名已开启"
+					android:switchTextOff="close"
+					android:switchTextOn="open"
+					android:title="是否开启自定义签名"/>	
+			</PreferenceCategory>
+			
+			<PreferenceCategory android:title="运行设置" >	
+			<SwitchPreference
+				android:key="isNoInstall"
+				android:summaryOff="已关闭"
+				android:summaryOn="已开启(注意:运行时将无法引用xml资源)"
+				android:switchTextOff="close"
+				android:switchTextOn="open"
+				android:title="免安装运行"/>    
+    
+    		<SwitchPreference
+				android:key="isjmInstall"
+				android:summaryOff="需要赋予root权限"
+				android:summaryOn="已开启"
+				android:switchTextOff="close"
+				android:switchTextOn="open"
+				android:title="Root静默安装"/>    
+
+			</PreferenceCategory>
+
+
+
+	</PreferenceScreen>
+    </PreferenceCategory>
+    
+    
+</PreferenceScreen>

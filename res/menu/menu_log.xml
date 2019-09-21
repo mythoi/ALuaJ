@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<item
+        android:id="@+id/all"
+        android:title="全部"/>
+	<item
+        android:id="@+id/stop"
+        android:title="暂停"/>
+    <item
+        android:id="@+id/cleanAll"
+        android:title="清空"/>
+	<item
+        android:id="@+id/filter"
+        android:title="过滤"/>
+	<item
+        android:id="@+id/system_out"
+        android:title="System out"/>
+
+	<item
+        android:id="@+id/system_err"
+        android:title="System err"/>
+
+	<item
+        android:id="@+id/androidRuntime"
+        android:title="Android Runtime"/>
+        
+  	<item
+        android:id="@+id/Causedby"
+        android:title="Caused by"/>
+
+        
+	<item
+        android:id="@+id/logd"
+        android:title="Log d"/>
+	<item
+        android:id="@+id/loge"
+        android:title="Log e"/>
+    <item
+        android:id="@+id/logi"
+        android:title="Log i"/>
+	
+	<item
+        android:id="@+id/logv"
+        android:title="Log v"/>
+	
+	<item
+        android:id="@+id/logw"
+        android:title="Log w"/>
+	
+</menu>

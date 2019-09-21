@@ -1,0 +1,22 @@
+{
+  LinearLayout,
+  layout_width="fill",
+  orientation="vertical",
+  {
+    Toolbar;
+    title="插件";
+    layout_width="fill";
+    titleTextColor=0xffffffff;
+    subtitleTextColor=0x55ffffff;
+    id="mtoolBar";
+    background=app_theme.colorPrimary;
+  };
+
+  {
+    ListView,
+    id="plist",
+    layout_width="fill"
+  },
+}
+
+

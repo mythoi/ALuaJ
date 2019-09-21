@@ -1,0 +1,31 @@
+{
+  LinearLayout;
+  orientation="vertical";
+  {
+    Toolbar;
+    title="需要导入的类";
+    titleTextColor=0xffffffff;
+    layout_width="fill";
+    id="importFixBar";
+    background=app_theme.colorPrimary;
+  }; 
+  {
+    LinearLayout;
+    id="loadLayout";
+    orientation="horizontal";
+    {
+      ProgressBar;
+    };
+    {
+      TextView;
+      textSize="24sp";
+      text="正在分析。。。";
+    };
+  };
+  {
+    ListView;
+    id="list";
+    layout_width="fill";
+    layout_height="fill";
+  }
+};

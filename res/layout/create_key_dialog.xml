@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:padding="10dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:text="保存路径:＊"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:text="默认创建jks类型，若需创建bks类型，把文件名后缀改为bks即可"
+				android:textSize="10sp"
+				android:gravity="center_vertical"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:ems="10"
+				android:id="@+id/keyPath"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:text="别名:＊"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:ems="10"
+				android:id="@+id/cert"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:text="密码:＊"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:ems="10"
+				android:id="@+id/pw"
+				android:inputType="textPassword"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:text="重复密码:＊"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:ems="10"
+				android:id="@+id/repw"
+				android:inputType="textPassword"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:text="有效期(年):＊"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:ems="10"
+				android:id="@+id/validity"
+				android:inputType="numberSigned"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:text="姓名:＊"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:ems="10"
+				android:id="@+id/name"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:text="公司："/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:ems="10"
+				android:id="@+id/company"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:text="部门："/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:ems="10"
+				android:id="@+id/organization"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:text="街道："/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:ems="10"
+				android:id="@+id/street"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:text="城市："/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:ems="10"
+				android:id="@+id/city"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:text="省份："/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:ems="10"
+				android:id="@+id/county"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:text="国家码："/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:ems="10"
+				android:id="@+id/state"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ <item
+        android:id="@+id/allSelect"
+        android:orderInCategory="80"
+        android:title="@string/allSelect"
+        android:icon="@mipmap/ic_select_all"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/copy"
+        android:orderInCategory="81"
+        android:title="@string/copy"
+        android:icon="@mipmap/ic_copy"
+        android:showAsAction="always"/>
+</menu>

@@ -1,0 +1,85 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	
+    <item
+        android:id="@+id/allSelect"
+        android:orderInCategory="80"
+        android:title="@string/allSelect"
+        android:icon="@mipmap/ic_select_all"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/cut"
+        android:orderInCategory="81"
+        android:title="@string/cut"
+        android:icon="@mipmap/ic_cut"
+        android:showAsAction="always"/>
+
+	<item
+        android:id="@+id/copy"
+        android:orderInCategory="81"
+        android:title="@string/copy"
+        android:icon="@mipmap/ic_copy"
+        android:showAsAction="always"/>
+
+	<item
+        android:id="@+id/paste"
+        android:orderInCategory="81"
+        android:title="@string/paste"
+        android:icon="@mipmap/ic_paste"
+        android:showAsAction="always"/>
+        
+      	<item
+        android:id="@+id/search"
+        android:orderInCategory="81"
+        android:title="查找"
+        android:showAsAction="never"/>
+	
+    <item
+        android:id="@+id/replace"
+        android:orderInCategory="81"
+        android:title="替换"
+        android:showAsAction="never"/>
+	
+
+    <item
+        android:id="@+id/run"
+        android:orderInCategory="81"
+        android:title="运行代码"
+        android:showAsAction="never"/>
+<!--
+    <item
+        android:id="@+id/insertClass"
+        android:orderInCategory="81"
+        android:title="插入类"
+        android:showAsAction="never"/>
+		
+	<item
+        android:id="@+id/insertMethod"
+        android:orderInCategory="81"
+        android:title="插入方法"
+        android:showAsAction="never"/>
+-->	
+		
+	<item
+        android:id="@+id/addTry"
+        android:orderInCategory="81"
+        android:title="添加try块"
+        android:showAsAction="never"/>
+	
+	<item
+        android:id="@+id/luazs"
+        android:orderInCategory="81"
+        android:title="Lua注释"
+        android:showAsAction="never"/>
+  
+  	<item
+        android:id="@+id/javazs"
+        android:orderInCategory="81"
+        android:title="Java注释"
+        android:showAsAction="never"/>
+
+  
+        
+        
+        
+</menu>

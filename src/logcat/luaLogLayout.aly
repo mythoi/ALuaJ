@@ -1,0 +1,22 @@
+{
+  LinearLayout;
+  layout_width="fill";
+  layout_height="fill";
+  orientation="vertical";
+  {
+    Toolbar;
+    title="LogCat-Lua";
+    layout_width="fill";
+    titleTextColor=0xffffffff;
+    subtitleTextColor=0x55ffffff;
+    id="mtoolBar";
+    background=app_theme.colorPrimary;
+  };
+  {
+    ListView;
+    id="scroll";
+    layout_width="fill";
+    layout_height="fill";
+    FastScrollEnabled=true;
+  };
+};

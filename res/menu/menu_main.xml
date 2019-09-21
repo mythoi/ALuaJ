@@ -1,0 +1,201 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item
+        android:id="@+id/action_spinner"
+        android:orderInCategory="80"
+        android:title="@string/action_spinner"
+        android:icon="@mipmap/ic_spinner"
+        android:showAsAction="always"/>
+	
+	
+    <item
+        android:id="@+id/action_undo"
+        android:orderInCategory="80"
+        android:title="@string/action_undo"
+        android:icon="@mipmap/ic_action_undo"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/action_redo"
+        android:orderInCategory="81"
+        android:title="@string/action_redo"
+        android:icon="@mipmap/ic_action_redo"
+        android:showAsAction="always"/>
+
+	<item
+        android:id="@+id/layout"
+        android:orderInCategory="81"
+        android:title="布局"
+        android:icon="@mipmap/ic_layout"
+        android:showAsAction="always"/>
+
+	<item
+        android:id="@+id/run"
+        android:orderInCategory="81"
+        android:title="运行"
+        android:icon="@mipmap/ic_play"
+        android:showAsAction="always"/>
+                
+	<item
+        android:id="@+id/xinjian_proj"
+        android:orderInCategory="81"
+        android:title="新建"
+        android:showAsAction="never"/>
+
+    <item
+        android:id="@+id/open_proj"
+        android:orderInCategory="81"
+        android:title="工程"
+        android:showAsAction="never"/>
+
+	<item
+        android:id="@+id/build_proj"
+        android:orderInCategory="81"
+        android:title="打包"
+        android:showAsAction="never"/>
+
+
+	<item
+        android:orderInCategory="81"
+        android:title="代码"
+        android:showAsAction="never">
+		<menu>
+			<item
+				android:id="@+id/seachCode"
+				android:orderInCategory="81"
+				android:title="@string/查找"
+				android:showAsAction="never"/>
+			<item
+				android:id="@+id/goLine"
+				android:orderInCategory="81"
+				android:title="@string/跳转"
+				android:showAsAction="never"/>
+    		<item
+				android:id="@+id/navi"
+				android:orderInCategory="81"
+				android:title="导航"
+				android:showAsAction="never"/>
+			<item
+				android:id="@+id/repaceCode"
+				android:orderInCategory="81"
+				android:title="@string/替换"
+				android:showAsAction="never"/>
+     
+			<item
+				android:id="@+id/duiQiCode"
+				android:orderInCategory="81"
+				android:title="@string/对齐代码"
+				android:showAsAction="never"/>
+		<!--
+     	<item
+				android:id="@+id/synaCode"
+				android:orderInCategory="81"
+				android:title="@string/代码分析"
+				android:showAsAction="never"/>
+        -->
+			<item
+				android:id="@+id/importPackages"
+				android:orderInCategory="81"
+				android:title="@string/整理导入包"
+				android:showAsAction="never"/>
+		</menu>
+	</item>
+
+	<item
+        android:id="@+id/log"
+        android:orderInCategory="81"
+        android:title="日志"
+        android:showAsAction="never">
+     
+        <menu>        
+
+            	<item
+				android:id="@+id/repaceCode"
+				android:orderInCategory="81"
+				android:title="LogCat Lua"
+				android:showAsAction="never"/>
+		    	<item
+				android:id="@+id/duiQiCode"
+				android:orderInCategory="81"
+				android:title="LogCat Java"
+				android:showAsAction="never"/>
+
+        </menu>
+        
+    </item>
+
+	
+	<!--
+	<item
+        android:id="@+id/charu"
+        android:orderInCategory="81"
+        android:title="插入"
+        android:showAsAction="never"/>
+-->
+
+	<item
+        android:id="@+id/save"
+        android:orderInCategory="81"
+        android:title="保存"
+        android:showAsAction="never"/>
+        
+	<item
+        android:id="@+id/javaapi"
+        android:orderInCategory="81"
+        android:title="A P I"
+        android:showAsAction="never"/>
+
+
+	<item
+        android:orderInCategory="81"
+        android:title="教程"
+        android:showAsAction="never">
+	<menu>
+		
+		<item
+			android:id="@+id/androlua"
+			android:orderInCategory="81"
+			android:title="AndroLua教程"
+			android:showAsAction="never"/>
+		
+		<item
+			android:id="@+id/androlua2"
+			android:orderInCategory="81"
+			android:title="AndroLua常用代码"
+			android:showAsAction="never"/>
+		
+		
+		<item
+			android:id="@+id/luadoc"
+			android:orderInCategory="81"
+			android:title="Lua文档"
+			android:showAsAction="never"/>
+		
+		<item
+			android:id="@+id/javalua"
+			android:orderInCategory="81"
+			android:title="ALuaj教程"
+			android:showAsAction="never"/>						
+	</menu>
+	</item>
+		
+	<item
+        android:id="@+id/plugs"
+        android:orderInCategory="81"
+        android:title="插件"
+        android:showAsAction="never"/>
+	
+
+	<item
+        android:id="@+id/setting"
+        android:orderInCategory="81"
+        android:title="设置"
+        android:showAsAction="never"/>
+		
+	<item
+        android:id="@+id/NotiRunLuaActivity"
+        android:orderInCategory="81"
+        android:title="关于"
+        android:showAsAction="never"/>
+
+
+</menu>

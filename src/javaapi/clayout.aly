@@ -1,0 +1,31 @@
+{
+  LinearLayout;
+  {
+    Toolbar;
+    layout_width="fill";
+    titleTextColor=0xffffffff;
+    subtitleTextColor=0x55ffffff;
+    id="ctoolBar";
+    background=app_theme.colorPrimary;
+  }; 
+
+  { 
+    LinearLayout;
+    {
+      EditText;
+      id="edit";
+      singleLine=true;
+      layout_weight="1";
+      layout_width="fill";
+    };
+    layout_width="fill";
+  };
+  {
+    ListView;
+    id="clist";
+    FastScrollEnabled=true;
+    layout_width="fill";
+    items=classes;
+  };
+  orientation="vertical";
+};

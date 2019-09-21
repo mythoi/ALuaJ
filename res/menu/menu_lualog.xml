@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<item
+        android:id="@+id/All"
+        android:title="All"/>
+	<item
+        android:id="@+id/Lua"
+        android:title="Lua"/>
+    <item
+        android:id="@+id/Test"
+        android:title="Test"/>
+	<item
+        android:id="@+id/Tcc"
+        android:title="Tcc"/>
+	<item
+        android:id="@+id/Error"
+        android:title="Error"/>
+
+	<item
+        android:id="@+id/Warning"
+        android:title="Warning"/>
+
+	<item
+        android:id="@+id/Info"
+        android:title="Info"/>
+        
+  	<item
+        android:id="@+id/Debug"
+        android:title="Debug"/>
+
+        
+	<item
+        android:id="@+id/Verbose"
+        android:title="Verbose"/>
+	<item
+        android:id="@+id/Clear"
+        android:title="Clear"/>	
+</menu>
