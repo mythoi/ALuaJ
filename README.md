@@ -1,10 +1,10 @@
 # ALuaJ
-移动端IDE，支持lua和java编译运行，支持打包apk
+该项目是<a href="http://www.occhao.cc/AndroLuaJ/">AndroLuaJ</a>的另一个简洁版，是通过<a href="http://www.occhao.cc/AndroLuaJ/">AndroLuaJ</a>自举构建出来的一个项目，它是移动端IDE，支持lua和java编译运行，支持打包生成apk文件直接在安卓端运行
 
-# 介绍
+### 简介
 该应用是安卓端目前还算完善的IDE，同时支持多种语言编译与运行， 真正实现了多语言快速封装apk。应用集成了java环境、Lua环境，不管你会哪个都可以快速封装成安卓应用，如果Java和Lua都会那就更好了，java和lua混合开发是该应用的最大特色。其他：齐全的开发教程，详尽的开发文档，代码自动补全，代码高亮，可视化布局.....在手机端轻松设计出属于自己的APP，效果堪比PC端的eclipse，完美兼容eclipse的安卓项目
 
-# 
+### 详细介绍
 
 ALuaJ集成JAVA环境、Lua环境，支持java、lua、编译运行，它可以在手机端快速打包apk。
 
@@ -53,3 +53,23 @@ lua文件中允许插入java类，java方法，java接口...
 AndroLuaJ手机端编程，想你所想，做你想做
 
 AndroLuaJ官方交流群551480248
+<a href="androluaj.mythoi.cn">AndroLuaJ官方论坛</a>
+
+### 构建此项目
+使用我的<a href="http://www.occhao.cc/AndroLuaJ/">AndroLuaJ</a>构建该项目，有开发经验的也可以用pc端的工具进行构建
+* 克隆此项目到手机
+* 手机端安装<a href="http://www.occhao.cc/AndroLuaJ/">AndroLuaJ</a>
+* 在手机上使用<a href="http://www.occhao.cc/AndroLuaJ/">AndroLuaJ</a>进行构建此项目（ALuaJ）
+
+### AndroLuaJ和ALuaJ的区别
+* <a href="http://www.occhao.cc/AndroLuaJ/">AndroLuaJ官网</a>
+* <a href="https://www.aluaj.tk/">ALuaJ官方</a>
+* 这两个项目都是安卓端的IDE，可以在安卓手机上写代码，然后编译打包apk运行。ALuaj是AndroLuaJ(有着更多功能，同时也可能潜在着更多Bug)衍生出来的一个稳定版本，默认基于AndroLua+4.1.0(nirenr)。AndroLuaJ支持ndk开发，而ALuaJ不支持
+ALuaJ与AndroLuaJ混合工程的不同:
+1.去除lua文件中插入java代码的功能
+2.init.lua新增compiles={}，使用它来依赖第三方支持包
+3.androlua默认环境为AndroLua+4.1.0
+4.android.jar里包含androlua的编译环境
+5.工程路径改为/storage/emulated/0/ALuaj/
+6.环境路径改为/storage/emulated/0/.alj/
+开发的动力来自于您的支持，如果您喜欢ALuaj，并希望它发展下去。您可以向您的好友分享该应用，或者捐赠我。
