@@ -50,9 +50,7 @@ lua文件中允许插入java类，java方法，java接口...
 
 可视化布局、代码自动补全、代码高亮、强大的LogCat过滤、自动导包、齐全的开发教程、详尽的开发文档...... 
 
-AndroLuaJ手机端编程，想你所想，做你想做
-
-AndroLuaJ官方交流群551480248
+官方交流群551480248
 
 <a href="http://androluaj.mythoi.cn">AndroLuaJ官方论坛</a>
 
@@ -73,4 +71,3 @@ ALuaJ与AndroLuaJ混合工程的不同:
 4.android.jar里包含androlua的编译环境
 5.工程路径改为/storage/emulated/0/ALuaj/
 6.环境路径改为/storage/emulated/0/.alj/
-开发的动力来自于您的支持，如果您喜欢ALuaj，并希望它发展下去。您可以向您的好友分享该应用，或者捐赠我。
